@@ -4,7 +4,7 @@ function create(){
         echo "No arguments supplied"
         return
     fi
-    DIRECTORY=/Users/ismaeel/Documents/Code
+    DIRECTORY=/Users/ismaeel/Code
 
     cd $DIRECTORY
 
@@ -29,7 +29,7 @@ function remove(){
         echo "No arguments supplied"
         return
     fi
-    DIRECTORY=/Users/ismaeel/Documents/Code
+    DIRECTORY=/Users/ismaeel/Code
     GH_USERNAME="IsmaeelAkram"
     
     cd $DIRECTORY
