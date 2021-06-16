@@ -1,0 +1,10 @@
+.vscode/
+*.log
+*.env
+*.env.*
+build/
+dist/
+*.dSYM/
+node_modules/
+__pycache__/
+*.out
