@@ -5,6 +5,7 @@ function create(){
         return
     fi
     DIRECTORY=/Users/ismaeel/Code
+    GIT_IGNORE=".vscode/\n*.env"
 
     cd $DIRECTORY
 
@@ -17,6 +18,7 @@ function create(){
     cd $1
     touch README.md
     echo \# $1 >> README.md 
+    echo $GIT_IGNORE >> .gitignore
     git add .
     git commit -m "Initial commit"
     git push -u origin master
