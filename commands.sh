@@ -39,3 +39,7 @@ function remove(){
     echo "Removed local directory. You're gonna have to delete the repo yourself."
     echo "https://github.com/$GH_USERNAME/$1/settings"
 }
+
+function createrepo(){
+    python3 ./createrepo.py
+}
