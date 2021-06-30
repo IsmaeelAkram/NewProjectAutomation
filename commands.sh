@@ -12,6 +12,9 @@ function create(){
     if [ "$2" = "--private" ]
     then
         gh repo create "$1" -y --private
+    elif [ "$2" = "--local"]
+    then
+        echo Not making repository
     else
         gh repo create "$1" -y --public
     fi
